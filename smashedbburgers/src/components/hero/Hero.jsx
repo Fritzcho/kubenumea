@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className='sbb__hero'>
         <div class="sbb__hero-text-h1">
-          Välkommen till Smashed B' Bar i Umeå
+          Välkommen till Brooklyn Burgers i Umeå!
         </div>
         <div class="sbb__hero-text-h2">
           Du hittar oss på Västerslätt, där vi levererar smash-burgare på högrev av högsta grad.

@@ -1,0 +1,25 @@
+.sbb__map {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 15%;
+    margin-bottom: 3rem;
+}
+
+.sbb__map-heading {
+    text-align: left;
+    font-size: 40px;
+}
+
+.sbb__map-map {
+    border: none;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .sbb__map {
+        margin: 0 5%;
+        margin-bottom: 3rem;
+    }
+}
