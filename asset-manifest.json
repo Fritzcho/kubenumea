@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/smashedbburgers/static/css/main.ce781557.css",
-    "main.js": "/smashedbburgers/static/js/main.4b64de05.js",
+    "main.js": "/smashedbburgers/static/js/main.e6f462be.js",
     "static/js/787.30f23824.chunk.js": "/smashedbburgers/static/js/787.30f23824.chunk.js",
     "static/media/burgir_img.jpg": "/smashedbburgers/static/media/burgir_img.54d2edac67b466c3b5cf.jpg",
     "static/media/image.png": "/smashedbburgers/static/media/image.9960279098556a68dc24.png",
@@ -10,11 +10,11 @@
     "index.html": "/smashedbburgers/index.html",
     "static/media/Arrow.svg": "/smashedbburgers/static/media/Arrow.91389d292c400126af00a63a80a99534.svg",
     "main.ce781557.css.map": "/smashedbburgers/static/css/main.ce781557.css.map",
-    "main.4b64de05.js.map": "/smashedbburgers/static/js/main.4b64de05.js.map",
+    "main.e6f462be.js.map": "/smashedbburgers/static/js/main.e6f462be.js.map",
     "787.30f23824.chunk.js.map": "/smashedbburgers/static/js/787.30f23824.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce781557.css",
-    "static/js/main.4b64de05.js"
+    "static/js/main.e6f462be.js"
   ]
 }
