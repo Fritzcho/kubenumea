@@ -84,6 +84,7 @@
     }
     .sbb__menu-img {
         width: auto;
+        margin-left: 0;
     }
     /* .sbb__menu-img {
         display: none;
