@@ -11,7 +11,7 @@ const Menu = () => {
         </div>
 
         <div className='sbb__menu-container'>
-            <img src={Outline} className='sbb__menu-img' width="500px"/>
+            <img src={Outline} className='sbb__menu-img'/>
             <div className='sbb__menu-itemlist'>
                 <div className='sbb__menu-item'>
                         <div className='sbb__menu-item-row'>
