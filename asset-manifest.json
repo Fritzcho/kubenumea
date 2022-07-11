@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/smashedbburgers/static/css/main.3e862b62.css",
-    "main.js": "/smashedbburgers/static/js/main.d6e2abff.js",
+    "main.css": "/smashedbburgers/static/css/main.fba2d5bd.css",
+    "main.js": "/smashedbburgers/static/js/main.1fa55e1a.js",
     "static/js/787.30f23824.chunk.js": "/smashedbburgers/static/js/787.30f23824.chunk.js",
     "static/media/burgir_img.jpg": "/smashedbburgers/static/media/burgir_img.54d2edac67b466c3b5cf.jpg",
     "static/media/image.png": "/smashedbburgers/static/media/image.9960279098556a68dc24.png",
@@ -9,12 +9,12 @@
     "static/media/logo.svg": "/smashedbburgers/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/smashedbburgers/index.html",
     "static/media/Arrow.svg": "/smashedbburgers/static/media/Arrow.91389d292c400126af00a63a80a99534.svg",
-    "main.3e862b62.css.map": "/smashedbburgers/static/css/main.3e862b62.css.map",
-    "main.d6e2abff.js.map": "/smashedbburgers/static/js/main.d6e2abff.js.map",
+    "main.fba2d5bd.css.map": "/smashedbburgers/static/css/main.fba2d5bd.css.map",
+    "main.1fa55e1a.js.map": "/smashedbburgers/static/js/main.1fa55e1a.js.map",
     "787.30f23824.chunk.js.map": "/smashedbburgers/static/js/787.30f23824.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e862b62.css",
-    "static/js/main.d6e2abff.js"
+    "static/css/main.fba2d5bd.css",
+    "static/js/main.1fa55e1a.js"
   ]
 }
