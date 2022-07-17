@@ -11,13 +11,14 @@ const Menu = () => {
         </div>
 
         <div className='sbb__menu-container'>
+            
             <img src={Outline} className='sbb__menu-img'/>
             <div className='sbb__menu-itemlist'>
                 <div className='sbb__menu-item'>
-                        <div className='sbb__menu-item-row'>
+                    <div className='sbb__menu-item-row'>
                         <div className="sbb__menu-item-left">Brooklyn</div>
                         <div className="sbb__menu-item-dotted"></div>
-                        <div className="sbb__menu-item-right">174:-</div>
+                        <div className="sbb__menu-item-right">99:-</div>
                     </div>
                     <div className='sbb__menu-item-content'>
                         2x90g högrev, briochebröd, hellmans mayo, FYRA skivor cheddar, ketchup, senap
@@ -25,10 +26,10 @@ const Menu = () => {
                 </div>
 
                 <div className='sbb__menu-item'>
-                        <div className='sbb__menu-item-row'>
+                    <div className='sbb__menu-item-row'>
                         <div className="sbb__menu-item-left">Bronx</div>
                         <div className="sbb__menu-item-dotted"></div>
-                        <div className="sbb__menu-item-right">174:-</div>
+                        <div className="sbb__menu-item-right">119:-</div>
                     </div>
                     <div className='sbb__menu-item-content'>
                         2x90g högrev, briochebröd, cheddarost, bacon, sallad, karameliserad lök
@@ -36,10 +37,10 @@ const Menu = () => {
                 </div>
 
                 <div className='sbb__menu-item'>
-                        <div className='sbb__menu-item-row'>
+                    <div className='sbb__menu-item-row'>
                         <div className="sbb__menu-item-left">Queens</div>
                         <div className="sbb__menu-item-dotted"></div>
-                        <div className="sbb__menu-item-right">174:-</div>
+                        <div className="sbb__menu-item-right">119:-</div>
                     </div>
                     <div className='sbb__menu-item-content'>
                         2x90g högrev, briochebröd, dillpicklad gurka, sirachaketchup, isad silverlök, cheddarost, fermenterad
@@ -48,10 +49,10 @@ const Menu = () => {
                 </div>
 
                 <div className='sbb__menu-item'>
-                        <div className='sbb__menu-item-row'>
+                    <div className='sbb__menu-item-row'>
                         <div className="sbb__menu-item-left">Staten island</div>
                         <div className="sbb__menu-item-dotted"></div>
-                        <div className="sbb__menu-item-right">174:-</div>
+                        <div className="sbb__menu-item-right">119:-</div>
                     </div>
                     <div className='sbb__menu-item-content'>
                         2x90g högrev, briochebröd, cheddarost, tryffelmayo, sallad, picklad rödlök, rostad lök
@@ -59,14 +60,18 @@ const Menu = () => {
                 </div>
 
                 <div className='sbb__menu-item'>
-                        <div className='sbb__menu-item-row'>
+                    <div className='sbb__menu-item-row'>
                         <div className="sbb__menu-item-left">Manhattan</div>
                         <div className="sbb__menu-item-dotted"></div>
-                        <div className="sbb__menu-item-right">166:-</div>
+                        <div className="sbb__menu-item-right">119:-</div>
                     </div>
                     <div className='sbb__menu-item-content'>
                         Halloumiost, briochebröd, jalapenomajonäs, tomat, picklad lök, sallad
                     </div>
+                </div>
+
+                <div className='sbb__menu-item sbb__menu-btncontainer'>
+                    <button className='sbb__menu-button'>Beställ här!</button>
                 </div>
             </div>
         </div>

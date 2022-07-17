@@ -3,12 +3,13 @@
     flex-direction: column;
 
     margin: 0 15%;
-    margin-bottom: 3rem;
+    margin-bottom: 50px;
 }
 
 .sbb__map-heading {
     text-align: left;
     font-size: 40px;
+    font-weight: 400;
 }
 
 .sbb__map-map {
@@ -16,10 +17,38 @@
     border-radius: 15px;
 }
 
+.sbb__map-flex {
+    display: flex;
+    gap: 5rem;
+}
+
+.sbb__map-flex iframe {
+    flex-grow: 1;
+}
+
+.sbb__map-info {
+    text-align: left;
+}
+
+.sbb__map-info h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.sbb__map-info p{
+    font-size: 28px;
+    font-weight: 400;
+}
+
 @media screen and (max-width: 1024px) {
 
     .sbb__map {
         margin: 0 5%;
         margin-bottom: 3rem;
+    }
+
+    .sbb__map-flex {
+        flex-direction: column;
+        gap: 1rem;
     }
 }

@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {Header, Hero, Menu, Map} from './components'
+import {Header, Hero, Menu, Map, Footer} from './components'
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Hero/>
       <Menu />
       <Map />
+      <Footer />
     </div>
   );
 }

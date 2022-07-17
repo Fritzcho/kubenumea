@@ -5,11 +5,11 @@ import Arrow from '../../assets/Arrow.svg';
 const Hero = () => {
   return (
     <div className='sbb__hero'>
-        <div class="sbb__hero-text-h1">
-          Välkommen till Brooklyn Burgers i Umeå!
+        <div className="sbb__hero-text-h1">
+          Välkommen till Brooklyn i Umeå!
         </div>
-        <div class="sbb__hero-text-h2">
-          Du hittar oss på Västerslätt, där vi levererar smash-burgare på högrev av högsta grad.
+        <div className="sbb__hero-text-h2">
+          Du hittar oss på Västerslätt, där vi levererar smash-burgare på högrev.
         </div>
         <div className='sbb__hero-arrow-container'>
           <div className='sbb__hero-arrow'>

@@ -5,7 +5,7 @@
     align-items: center;
     gap: 50px;
     
-    padding: 5px;
+    padding: 15px;
 
     background-color: white;
 
@@ -26,9 +26,7 @@
 }
 
 .sbb__header-img {
-    width: 110px;
-    -webkit-animation: rotate-center 20s linear infinite both;
-	  animation: rotate-center 20s linear infinite both;
+    width: 130px;
 }
 
 @media screen and (max-width: 450px) {
