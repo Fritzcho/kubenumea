@@ -28,6 +28,8 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+
+    margin-top: 50px;
 }
 
 .sbb__menu-img {
@@ -90,6 +92,32 @@
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     font-weight: 500;
+
+    margin-top: 30px;
+}
+
+.sbb__addon-subtitle {
+    font-size: 32px;
+}
+.sbb__menu-item-left.light, .sbb__menu-item-right.light {
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.sbb__menu-addons {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+
+    margin: 50px 0px;
+}
+
+.sbb__addons-left {
+    flex-grow: 2;
+}
+
+.sbb__addons-right {
+    flex-grow: 1;
 }
 
 @media screen and (max-width: 1024px) {
@@ -113,5 +141,10 @@
     } */
     .sbb__menu-container {
         margin-left: 0;
+    }
+
+    .sbb__menu-addons {
+        flex-direction: column;
+        gap: 50px;
     }
 }
