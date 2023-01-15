@@ -1,0 +1,137 @@
+.sbb__form {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+    gap: 10px;
+
+    margin: 10% 20%;
+
+    border-radius: 10px;
+}
+
+.sbb__form-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.sbb__form-text h1 {
+    text-align: left;
+    font-family: 'Heading';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+
+    color: #002445;
+}
+
+.sbb__form-text p {
+    text-align: left;
+    font-family: 'Paragraph';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    max-width: 500px;
+
+    color: #002445;
+}
+
+.sbb__form-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px 20px;
+    gap: 25px;
+}
+
+.sbb__form form input[type=text], .sbb__form textarea {
+    all:unset;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 25px;
+    gap: 10px;
+    background: #F1F1F1;
+    border-radius: 15px;
+
+    text-align: left;
+    font-family: 'Paragraph';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    width: 500px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.sbb__form form input[type=submit] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 50px 15px;
+    gap: 10px;
+
+    background: #002445;
+    border-radius: 100px;
+
+    font-family: 'Heading';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 1600px) {
+    .sbb__form {
+        margin: 10% 10%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .sbb__form form input[type=text], .sbb__form textarea {
+        width: 350px;
+    }
+
+    .sbb__form-text p {
+        max-width: initial;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .sbb__form form input[type=text], .sbb__form textarea {
+        width: 400px;
+    }
+    .sbb__form {
+        margin: 15% 2%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .sbb__form {
+        flex-direction: column;
+        margin: 15% 5%;
+    }
+
+    .sbb__form-text {
+        max-width: 500px;
+    }
+
+    .sbb__form-form {
+        padding: 0;
+    }
+
+    .sbb__form form input[type=text], .sbb__form textarea {
+        margin-left: 0;
+        width: 82vw;
+    }
+}

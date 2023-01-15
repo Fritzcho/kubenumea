@@ -1,0 +1,120 @@
+.sbb__about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
+    gap: 10px;
+    
+    background: #002445;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    margin: 10% 20%;
+}
+
+.sbb__about-img {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.sbb__about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0% 10%;
+    gap: 50px;
+}
+
+.sbb__about-header {
+    font-family: 'Heading';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 34px;
+    text-align: left;
+
+    max-width: 400px;
+    color: #FFFFFF;
+}
+
+.sbb__about-paragraph {
+    font-family: 'Paragraph';
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    max-width: 400px;
+    color: #FFFFFF;
+}
+
+.sbb__about-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 50px 15px;
+    gap: 10px;
+
+    background: #FFFFFF;
+    border-radius: 100px;
+
+    font-family: 'Heading';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 27px;
+
+    color: #002445;
+}
+
+@media screen and (max-width: 1600px) {
+    .sbb__about {
+        margin: 10% 10%;
+    }
+
+    .sbb__about-paragraph {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .sbb__about {
+        margin: 15% 2%;
+    }
+
+    .sbb__about-paragraph {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .sbb__about {
+        flex-direction: column;
+        align-items: center;
+        justify-content: baseline;
+        gap: 10px;
+        
+        background: #002445;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    
+        margin: 15% 5%;
+    }
+
+    .sbb__about-img {
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .sbb__about-text {
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10%;
+        gap: 20px;
+    }
+    
+}

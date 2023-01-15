@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
 
-    margin: 0 15%;
+    margin: 0 20%;
     margin-bottom: 50px;
 }
 
@@ -10,6 +10,15 @@
     text-align: left;
     font-size: 40px;
     font-weight: 400;
+
+    text-align: center;
+    font-family: 'Heading';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+
+    color: #002445;
 }
 
 .sbb__map-map {
@@ -24,20 +33,58 @@
 
 .sbb__map-flex iframe {
     flex-grow: 1;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
 }
 
 .sbb__map-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+
+    margin: 255px 5px;
+    position: absolute;
+    width: 248px;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.sbb__map-info h1{
+    font-family: 'Heading';
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 32px;
+
+    margin-bottom: 0;
+    color: #000000;
+}
+
+.sbb__map-info p {
     text-align: left;
+    padding-top: 0;
+    padding-left: 15px;
+
+    font-family: 'Paragraph';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
 }
 
-.sbb__map-info h2{
-    font-size: 40px;
-    font-weight: 400;
+@media screen and (max-width: 1600px) {
+    .sbb__map {
+        margin: 0 10%;
+    }
 }
 
-.sbb__map-info p{
-    font-size: 28px;
-    font-weight: 400;
+@media screen and (max-width: 1180px) {
+    .sbb__map {
+        margin: 15% 2%;
+    }
 }
 
 @media screen and (max-width: 1024px) {

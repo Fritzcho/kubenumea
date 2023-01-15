@@ -1,0 +1,162 @@
+.sbb__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 50px 0px 100px 0px;
+
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.sbb__menu h1 {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.sbb__menu h2 {
+    text-align: left;
+    font-weight: 400;
+}
+
+.sbb__menu-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.sbb__menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    margin-top: 50px;
+}
+
+.sbb__menu-img {
+    margin-top: -50px;
+    margin-left: -10%;
+    width: 500px;
+    max-height: 600px;
+    object-fit: contain;
+
+    position: sticky;
+    top: 7rem;
+}
+
+.sbb__menu-itemlist {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    width: 100%;
+}
+
+.sbb__menu-item-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sbb__menu-item-dotted {
+    flex-grow: 1;
+    border-bottom: 4px dotted white;
+    margin-bottom: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.sbb__menu-item-row {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.sbb__menu-item-content {
+    text-align: left;
+
+    font-size: 18px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.sbb__menu-btncontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sbb__menu-button {
+    padding: 12px 75px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-weight: 500;
+
+    margin-top: 30px;
+}
+
+.sbb__addon-subtitle {
+    font-size: 32px;
+}
+.sbb__menu-item-left.light, .sbb__menu-item-right.light {
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.sbb__menu-addons {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+
+    margin-bottom: 100px;
+}
+
+.sbb__addons-left {
+    flex-grow: 2;
+}
+
+.sbb__addons-right {
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .sbb__menu {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (min-height: 900px) {
+    .sbb__menu-img {
+        top: 13rem;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .sbb__menu-container {
+        flex-direction: column;
+    }
+    .sbb__menu-img {
+        width: auto;
+        margin-left: 0;
+        max-height: 400px;
+        position: initial;
+        margin-bottom: 40px;
+    }
+    /* .sbb__menu-img {
+        display: none;
+    } */
+    .sbb__menu-container {
+        margin-left: 0;
+    }
+
+    .sbb__menu-addons {
+        flex-direction: column;
+        gap: 50px;
+    }
+}

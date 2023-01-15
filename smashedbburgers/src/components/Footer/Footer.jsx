@@ -1,22 +1,23 @@
 import React from 'react'
 import './footer.css'
+import Logo from '../../assets/logo.svg'
 
 const Footer = () => {
   return (
     <div className='sbb__footer'>
         <div className='sbb__footer-left'>
             <p>
-                Förrådsvägen 13, 901 32 Umeå
+                FORMVÄGEN 8B
                 <br/>
                 090-765 70 33
                 <br/>
-                brooklynumea.info@gmail.com
+                info@KUBENUMEA.SE
             </p>
-            <img className='sbb__footer-img' src={require("../../assets/BrooklynBurgers.png")}/>
         </div>
-        <small>Hemsidan utvecklad i samarbete med A. Ramezani</small> 
-        <br/>
-        <small>&copy; Copyright 2022, Brooklyn Homemade Burgers</small> 
+        <div className='sbb__footer-right'>
+            <img className='sbb__footer-img' src={Logo}/>
+            <small>Hemsidan utvecklad i samarbete med A. Ramezani</small> 
+        </div>
     </div>
   )
 }

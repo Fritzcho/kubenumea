@@ -5,16 +5,15 @@ const Map = () => {
   return (
     <div className='sbb__map' id='map'>
         <h1 className='sbb__map-heading'>
-            Hitta till oss!
+            HITTA TILL OSS
         </h1>
         <div className='sbb__map-flex'>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1758.9733063853628!2d20.23622547403796!3d63.840882591688384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467c5b66613016e9%3A0x9ba75dba31a2e674!2zRsO2cnLDpWRzdsOkZ2VuIDEzLCA5MDEgMzIgVW1lw6U!5e0!3m2!1ssv!2sse!4v1657537382958!5m2!1ssv!2sse"
-            height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='sbb__map-map'></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d439.6021425311299!2d20.307800388185566!3d63.84991759896129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467c5b2f092149a9%3A0x9ed74ea423f0fe9e!2zRm9ybXbDpGdlbiA4QiwgOTA2IDIxIFVtZcOl!5e0!3m2!1ssv!2sse!4v1673655337650!5m2!1ssv!2sse"
+            height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='sbb__map-map'>
+            </iframe>
             <div className='sbb__map-info'>
-                <p>Måndag till Lördag:</p>
-                <p>10:00 - 13:30</p>
-                <br/>
-                <p>Söndag: Stängt</p>
+                <h1>ÖPPETTIDER:</h1>
+                <p>Måndag till Söndag 10-19</p>
             </div>
          </div>
     </div>
