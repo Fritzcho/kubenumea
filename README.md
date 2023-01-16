@@ -1,2 +1,2 @@
-# SmashedBBurgers
-Website for the Smashed B Burgers restaurant in Umeå Sweden.
+# Kuben
+Kuben is a restaurang in Umeå, Sweden. This is their website developed in ReactJS
