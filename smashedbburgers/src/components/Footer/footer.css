@@ -63,6 +63,7 @@
 
 @media screen and (max-width: 500px) {
     .sbb__footer {
+        padding: 20% 5%;
         flex-direction: column;
         padding-bottom: 25px;
     }

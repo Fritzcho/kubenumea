@@ -11,6 +11,11 @@ body {
     letter-spacing: 1px;
 
     color: white;
+
+    background-image: url('./assets/burger_vector.png');
+    background-position: 55vw 300vh;
+    background-size: 100vw;
+    background-repeat: repeat-x
 }
 
 html {

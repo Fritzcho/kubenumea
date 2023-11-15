@@ -25,7 +25,7 @@ const Header = () => {
             <a href="#menu">MENY</a>
             <a href="#map">HITTA HIT</a>
             <a href="#form">KONTAKTA OSS</a>
-            <button>BESTÄLL</button>
+            <a style={{textDecoration:"none"}}href='https://kuben.yabie.online'><button>BESTÄLL</button></a>
         </div>
     </nav>
   )

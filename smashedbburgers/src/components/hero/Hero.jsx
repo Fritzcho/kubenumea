@@ -11,11 +11,13 @@ const Hero = () => {
             <img src={Logo} height="150%"/>
         </div>
         <div className="sbb__hero-text-h1">
-            Välkommen till Kuben
+            Gatukök med inspiration från världen över <br/> på Ersboda handelsområde
         </div>
         <div className="sbb__hero-text-h3">
-            Umeås smakrikaste form.
+            Beställ via hemsidan eller ring 090-202 30 10. Du kan även beställa på plats hos oss <br/>
+            Formvägen 8C
         </div>
+        <a href='https://kuben.yabie.online'><button>BESTÄLL ONLINE</button></a>
         {/*<div className='sbb__hero-arrow-container'>
           <div className='sbb__hero-arrow'>
             <a href='#Menu'><img src={Arrow} width="100px"/></a>

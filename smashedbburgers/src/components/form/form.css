@@ -89,6 +89,8 @@
     font-size: 22px;
     color: #FFFFFF;
 
+    cursor: pointer;
+
 }
 
 @media screen and (max-width: 1600px) {
@@ -134,4 +136,31 @@
         margin-left: 0;
         width: 82vw;
     }
+}
+
+@media screen and (max-width: 500px) {
+    .sbb__form {
+        margin: 20% 5%;
+    }
+    .sbb__form h1 {
+        font-size: 2rem;
+    }
+    .sbb__form p {
+        font-size: 1rem;
+    }
+
+    .sbb__form form input[type=submit] {
+        font-size: 1rem;
+    }
+
+    .sbb__form form input[type=text], .sbb__form textarea {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sbb__form form input[type=text], .sbb__form textarea {
+        width: 75vw;
+    }
+    
 }

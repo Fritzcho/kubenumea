@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15%;
+    padding: 10px 1%;
     gap: 10px;
 
     background-color: white;
@@ -23,7 +23,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15%;
+    padding: 10px 1%;
     gap: 10px;
 
     position: fixed;
@@ -100,5 +100,20 @@
 @media screen and (max-width: 940px) {
     .sbb__header a, .sbb__header-active a {
         display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sbb__header, .sbb__header-active {
+        padding: 10px 10px;
+        max-height: 55px;
+    }
+    .sbb__header button, .sbb__header-active button {
+        font-size: 0.8rem;
+        padding: 10px 25px 5px;
+    }
+
+    .sbb__header-logo-active, .sbb__header-logo {
+        height: 40px;
     }
 }

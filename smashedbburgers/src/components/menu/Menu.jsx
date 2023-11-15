@@ -5,7 +5,7 @@ const Menu = () => {
   return (
     <div className='sbb__menu'>
         <h1 className='sbb__menu-menu' id="menu">
-            VÅR FANTASTISKA MENY
+            MENY
         </h1>
         <img src={require('../../assets/menu.jpg')}/>
     </div>

@@ -7,16 +7,16 @@ const Footer = () => {
     <div className='sbb__footer'>
         <div className='sbb__footer-left'>
             <p>
-                FORMVÄGEN 8B
+                FORMVÄGEN 8C
                 <br/>
-                090-765 70 33
+                090-202 30 10
                 <br/>
                 info@KUBENUMEA.SE
             </p>
         </div>
         <div className='sbb__footer-right'>
             <img className='sbb__footer-img' src={Logo}/>
-            <small>Hemsidan utvecklad i samarbete med A. Ramezani</small> 
+            <small>Hemsidan utvecklad i samarbete med <a style={{color: "white"}} href="https://fritzcho.github.io/portfolio_v2/">A. Ramezani</a></small>
         </div>
     </div>
   )

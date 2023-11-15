@@ -10,52 +10,114 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     padding-bottom: 5%;
+
+    margin: auto;
 }
 
 .sbb__hero-logo {
     height: 40vh;
+    margin-top: 10vh;
     padding-bottom: 20vh;
 }
 
 .sbb__hero-text-h1 {
-    font-family: "Heading" !important;
+    font-family: "Heading";
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
 
     color: white;
-    font-size: 62px;
-	text-align: left;
+    font-size: 2rem;
+	text-align: center;
     
-	padding-left: 5%;
+    padding: 0 15%;
+    margin: auto;
 }
 
 .sbb__hero-text-h3 {
-    font-family: "Paragraph" !important;
+    font-family: "Paragraph";
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-
-    padding-left: 5%;
+    justify-content: center;
 
     color: white;
-    font-size: 45px;
-    text-align: left;
+    font-size: 1.5rem;
+    text-align: center;
+
+    margin: auto;
 }
 
+.sbb__hero button {
+    display: none;
+}
+
+.sbb__hero a {
+    text-decoration: none;
+}
 @media screen and (max-width: 940px) {
     .sbb__hero-logo {
         height: 30vh;
     }
     .sbb__hero-text-h1 {
         max-width: 400px;
-        font-size: 48px;
+        padding: 0 5%;
     }
 
     .sbb__hero-text-h3 {
         max-width: 500px;
-        font-size: 32px;
+    }
+
+    .sbb__hero button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sbb__hero-logo {
+        height: 40vw;
+    }
+
+    .sbb__hero-text-h1 {
+        display: none;
+    }
+
+    .sbb__hero-text-h3 {
+        display: none;
+    }
+
+    .sbb__hero a {
+        align-items: center;
+        text-align: center;
+        justify-self: center;
+        justify-content: center;
+    }
+
+    .sbb__hero button  {
+        all:unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 50px 15px;
+        gap: 10px;
+    
+        background: white;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 100px;
+    
+        font-family: 'Heading';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 24px;
+        align-items: center;
+
+        margin: 0 10% 0 13%;
+    
+        color: #002445;
+
+        margin: auto;
     }
 }

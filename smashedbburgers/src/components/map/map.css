@@ -42,7 +42,7 @@
     align-items: center;
     padding: 15px 20px;
 
-    margin: 255px 5px;
+    margin: 180px 5px;
     position: absolute;
     width: 248px;
 
@@ -97,5 +97,30 @@
     .sbb__map-flex {
         flex-direction: column;
         gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sbb__map h1{
+        font-size: 2rem;
+    }
+
+    .sbb__map-info {
+        margin: 325px 5px;
+        width: 78%;
+    }
+
+    .sbb__map-info h1 {
+        font-size: 1rem;
+    }
+
+    .sbb__map-info p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sbb__map-info {
+        width: 75vw;
     }
 }

@@ -7,12 +7,12 @@ const About = () => {
         <img className='sbb__about-img' src={require('../../assets/about.png')}/>
         <div className='sbb__about-text'>
             <h1 className='sbb__about-header'>
-                Vi gör saker annorlunda
+                Keep calm and take another bite
             </h1>
             <p className='sbb__about-paragraph'>
-                Olikt vissa andra restauranger är  vår mat inte samma varor som du hittar i din närmsta frysdisk, den är vår egen och unik
+                Vi erbjuder en smakrik upplevelse som ger dig lugn i den stressamma vardagen. 
             </p>
-            <button className='sbb__about-button'>BESTÄLL HÄR</button>
+            <a style={{textDecoration:"none"}} href='https://kuben.yabie.online'><button className='sbb__about-button'>BESTÄLL HÄR</button></a>
         </div>
     </div>
   )
